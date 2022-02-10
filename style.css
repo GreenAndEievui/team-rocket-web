@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Ubuntu Condensed";
+    src: url("assets/ubuntu-condensed.ttf");
+}
+
+html {
+    margin: 0 16px;
+}
+body {
+    font-family: Ubuntu, sans-serif;
+    max-width: 60em;
+    margin: 0 auto 80px;
+    line-height: 24px;
+}
+h1 {
+    text-align: center;
+}
+h1, h2, h3 {
+    font-family: "Ubuntu Condensed";
+}
+p {
+    margin: 0 5%;
+}
