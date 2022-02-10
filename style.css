@@ -21,3 +21,13 @@ h1, h2, h3 {
 p {
     margin: 0 5%;
 }
+.header {
+    border-style: none;
+    width: 100%;
+    height: 75px;
+}
+header {
+    margin-top: 0;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+}
