@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Ubuntu Condensed";
+    src: url("assets/ubuntu-condensed.ttf");
+}
+
+@font-face {
+    font-family: "Anton";
+    src: url("assets/Anton-Regular.ttf");
+}
+
+html {
+    margin: 0 16px;
+}
+body{
+    font-family: Ubuntu, sans-serif;
+    margin: 0 auto 80px;
+    line-height: 24px;
+    background-color: #DFDFDF;
+}
+h1 {
+    text-align: center;
+}
+h1, h2, h3 {
+    font-family: "Ubuntu Condensed";
+}
+p {
+    margin: 0 5%;
+}
+.header {
+    border-style: none;
+    width: 100%;
+    height: 75px;
+}
+header {
+    margin-top: 0;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+}
+
+table {
+	display: table;
+}
+table tr {
+	display: table-cell;
+}
+table tr td {
+	display: block;
+}
+
+div.PetInfo{
+    /*width: 40%;
+    position: absolute; */
+    top: 140px;
+}
+
+.PetTitle{
+    /*Border and Background*/
+    border-style: solid;
+    border-width: 5px;
+    border-color: #EC3832;
+    background-color: #EC3832;
+}
+
+.PetTitle > h1{
+    font-family: Anton;
+    font-size: 60px;
+    color: white;
+}
+
+.PetDetails {
+    /*Border and Background*/
+    border-style: solid;
+    border-width: 5px;
+    border-color: #EC3832;
+    background-color: white;
+}
+
+.PetDetails > img {
+    max-width: 40%;
+    max-height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+div.ReportContainer{
+    /*width: 56%;
+    position: absolute; */
+    top: 140px;
+    right: 15px;
+}
+
+.ReportTitle{
+    /*Border and Background*/
+    border-style: solid;
+    border-width: 5px;
+    border-color: #477E7F;
+    background-color: #477E7F;
+}
+
+.ReportTitle > h1{
+    font-family: Anton;
+    font-size: 60px;
+}
+
+.ReportDetails {
+    /*Border and Background*/
+    border-style: solid;
+    border-width: 5px;
+    border-color: #477E7F;
+    background-color: DFDFDF;
+}
