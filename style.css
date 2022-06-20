@@ -102,6 +102,7 @@ div.ReportContainer{
 .ReportTitle > h1{
     font-family: Anton;
     font-size: 60px;
+    line-height: 50px;
 }
 
 .ReportDetails {
