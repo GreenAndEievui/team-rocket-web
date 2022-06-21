@@ -3,7 +3,7 @@
 $data;
 $petName;
 if (isset($_GET["pet"])){
-    $raw = file_get_contents("../accounts/".$_GET["pet"].".json");
+    $raw = file_get_contents("../accounts/".urldecode($_GET["pet"]).".json");
     $data = json_decode($raw, true);
     $petName = substr(strstr($data["name"], "/", false), 1);
 }
