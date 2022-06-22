@@ -20,7 +20,7 @@ if (isset($_GET["pet"])){
     <title>Report Pet Found</title>
 </head>
 <body>
-    <img src="../assets/logo_base.png" style="position: absolute; width: 8%; top: 18px; left: 90%">
+    <img src="../assets/logo_base.png" style="position: absolute; width: 8%; top: 18px; left: 90%; margin-top: 40px;">
     <h1 >Report Information on Lost Pet</h1>
     <!--
     <h1 style="font-size: 90px;">Charlie</h1>
@@ -54,7 +54,7 @@ if (isset($_GET["pet"])){
                 <input type="file" id="ReportImg" name="img" accept="image/*">
                 <br>
                 <h2>Please describe/explain any information you have:</h2>
-                <textarea id="Report info" rows="13" cols="50"></textarea>
+                <textarea id="Report info" rows="13" cols="30"></textarea>
                 <h2>Describe when you found this information:</h2>
                 <input id="InfoFoundDate" type="date">
                 <input id="InfoFoundTime" type="time">
