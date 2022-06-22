@@ -45,6 +45,8 @@ if (isset($_GET["pet"])){
         </div>
     </div>
 
+    <div style="height: 30px;"></div>
+
     <div class="ReportContainer">
         <div class="ReportTitle">
             <h1 style="font-family: Anton;">Send Information</h1>
