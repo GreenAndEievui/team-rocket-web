@@ -20,8 +20,9 @@ if (isset($_GET["pet"])){
     <title>Report Pet Found</title>
 </head>
 <body>
-    <img src="../assets/logo_base.png" style="position: absolute; width: 8%; top: 18px; left: 90%; margin-top: 40px;">
-    <h1 >Report Information on Lost Pet</h1>
+    <img src="../assets/logo_base.png" style="position: absolute; width: 8%; top: 18px; left: 90%;">
+    <div style="height: 35px;"></div>
+    <h1 style="line-height: 30px;">Report Information on Lost Pet</h1>
     <!--
     <h1 style="font-size: 90px;">Charlie</h1>
     <form style="font-family: 'Ubuntu Condensed'; font-size: 30px; text-align: center;">
@@ -59,7 +60,7 @@ if (isset($_GET["pet"])){
                 <input id="InfoFoundDate" type="date">
                 <input id="InfoFoundTime" type="time">
                 <br>
-                <input type="submit" value="Submit Report" style="width: 40%; height: 53px; margin-top: 15px;">
+                <input type="button" value="Submit Report" style="width: 40%; height: 53px; margin-top: 15px;">
             </form>
         </div>
     </div>
